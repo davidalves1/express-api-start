@@ -1,0 +1,22 @@
+{
+  "name": "api-generator",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "main": "src/server.js",
+  "author": "davidalves1 <contato@davidalves1.com> (https://davidalves1.com)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.0"
+  }
+}
